@@ -290,17 +290,19 @@ hr {
 }
 
 @media (max-width: 414px) {
+    html {font-size: 1.2rem;}
+    
     .form-grid {
         grid-template-columns: auto;
-        justify-content: center;
     }
 
     #adv-submit {
+        margin-left: 120px;
         columns: 1;
     }
 
     .labels {
-        text-align: left;
+        padding-left: 0px;
         margin-bottom: 5px;
         margin-top: 20px;
     }
