@@ -194,6 +194,7 @@ hr {
 .grid-container-2>.navbar {
     background-color: rgb(240, 240, 240);
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .navbar-2 {
