@@ -297,7 +297,7 @@ hr {
     .form-grid {grid-template-columns: auto;}
 
     #adv-submit {
-        margin-right: 120px;
+        margin-left: 120px;
         margin-top: 20px;
         margin-bottom: 20px;
         columns: 1;
