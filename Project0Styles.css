@@ -279,7 +279,7 @@ hr {
 }
 
 @media (max-width: 599px){
-    .form-grid {grid-template-columns: 35% 38%;}
+    .form-grid {grid-template-columns: 40% 45%;}
 
     .eg, #to-do, .hide {display: none;}
 
