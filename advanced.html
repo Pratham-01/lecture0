@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://www.google.com/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="Project0Styles.css">
+    </head>
+
+    <body class="grid-container-2">
+        <div class="navbar">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google">
+            <div class="navbar-2">
+                <a href="index.html">Google Search</a>
+                <a href="images.html">Images</a>
+            </div>
+        </div>
+        <div class="adv">Advanced Search</div>
+        <div class="main">
+            <form class="form-grid" action="https://google.co.in/search">
+                <div class="labels" id="find-pages">Find pages with...</div>
+                <div></div>
+                <div id="to-do">To do this in the search box.</div>
+
+                <div class="labels">all these words:</div>
+                <input type="text" name="as_q" autocomplete="off">
+                <div class="eg">Type the important words: <span class="eg-2">tri-colour rat terrier</span></div>
+
+                <div class="labels">this exact word or phrase:</div>
+                <input type="text" name="as_epq" autocomplete="off">
+                <div class="eg">Put exact words in quotes: <span class="eg-2">"rat terrier"</span></div>
+
+                <div class="labels">any of these words:</div>
+                <input type="text" name="as_oq" autocomplete="off">
+                <div class="eg">Type OR between all the words you want: <span class="eg-2">miniature OR standard</span></div>
+
+                <div class="labels">none of these words:</div>
+                <input type="text" name="as_eq" autocomplete="off">
+                <div class="eg">Put a minus sign just before words that you don't want: <div class="eg-2">-rodent, -"Jack Russell"</div></div>
+
+                <div class="hide"></div>
+                <input type="submit" id="adv-submit" value="Advanced Search">
+            </form>
+        </div>
+        <div class="footer">
+            Location
+            <hr>
+        </div>
+    </body>
+</html>
