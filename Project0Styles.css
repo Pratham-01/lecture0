@@ -17,6 +17,7 @@ html {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    width = 100vw;
 }
 
 a:link, a:visited {
