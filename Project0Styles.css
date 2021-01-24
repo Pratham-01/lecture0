@@ -17,7 +17,6 @@ html {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width = 100vw;
 }
 
 a:link, a:visited {
@@ -180,7 +179,7 @@ hr {
 .grid-container-2 {
     height: 100vh;
     display: grid;
-    grid-template-rows: 10% 10% 70% 10%;
+    grid-template-rows: 10% 10% auto 10%;
 }
 
 .navbar>img {
@@ -193,7 +192,6 @@ hr {
 .grid-container-2>.navbar {
     background-color: rgb(240, 240, 240);
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .navbar-2 {
@@ -278,8 +276,8 @@ hr {
     margin-bottom: 18px;
 }
 
-@media (max-width: 599px){
-    .form-grid {grid-template-columns: 40% 45%;}
+@media (max-width: 800px){
+    .form-grid {grid-template-columns: 35% 38%;}
 
     .eg, #to-do, .hide {display: none;}
 
@@ -292,7 +290,7 @@ hr {
 @media (max-width: 414px) {
     html {font-size: 14px;}
     
-    .grid-container-2 {grid-template-rows: 8% 10% 72% 10%;}
+    .grid-container-2 {grid-template-rows: 8% 10% auto 10%;}
     
     .form-grid {grid-template-columns: auto;}
 
