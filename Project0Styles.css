@@ -292,7 +292,7 @@ hr {
 @media (max-width: 414px) {
     html {font-size: 14px;}
     
-    .grid-container-2 {grid-template-rows: 8% 10% auto 10%;}
+    .grid-container-2 {grid-template-rows: 8% 10% 72% 10%;}
     
     .form-grid {grid-template-columns: auto;}
 
